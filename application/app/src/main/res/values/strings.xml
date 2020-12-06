@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Stock_Prediction</string>
+    <string name="title_activity_real">RealActivity</string>
+</resources>

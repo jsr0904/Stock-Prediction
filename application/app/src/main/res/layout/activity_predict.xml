@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stock_prediction.predictActivity"
+    android:background="#ffff">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text" />
+
+    <EditText
+        android:id="@+id/insert"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#aaaa"/>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="#ffff">
+
+        <EditText
+            android:id="@+id/stock"
+            android:layout_width="75dp"
+            android:layout_height="45dp"
+            android:background="#aaaa"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text = " %"
+            android:textColor="#000"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn"
+            android:background="@drawable/prediction"/>
+        <Button
+            android:id="@+id/disconnect"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:background="@drawable/exit" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/result" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="380dp"
+        android:layout_margin="20dp"
+        android:id="@+id/tv"
+        android:textSize = "20dp"
+        android:textColor = "#000"
+        android:background="#FFFF"/>
+
+</LinearLayout>
