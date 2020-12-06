@@ -24,7 +24,7 @@
 * 가장 기본적인 Deep Learning 알고리즘
 * Input layer 와 output layer 사이에 하나 이상의 hidden layer 가 존재하는 신경망
 * 뉴스 제목을 입력 할 시 상승할 것인지 하락할 것인지 판별
-<img src= https://github.com/jsr0904/Stock-Prediction/blob/main/MLP%20Model.png >
+<img src= https://github.com/jsr0904/Stock-Prediction/blob/master/MLP%20Model.png >
 
 # GRU 
 * LSTM에서 Forget, input, output gate를 줄여 Reset, Update gate를 이용하는 알고리즘
@@ -33,7 +33,7 @@
 * Parameter 수가 LSTM보다 적어서 학습 시간이 더 짧고 적은 데이터로도 학습이 가능
 * 출력에 비선형 계산식이 필요가 없음
 * 뉴스 제목을 입력 할 시 상승할 것인지 하락할 것인지 판별
-<img src= https://github.com/jsr0904/Stock-Prediction/blob/main/GRU%20Model.png >
+<img src= https://github.com/jsr0904/Stock-Prediction/blob/master/GRU%20Model.png >
 
 # 예측 결과
 * 성능 지표는 Accuracy와 F1 score 이용
